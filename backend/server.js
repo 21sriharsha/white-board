@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send("Hello from Dall-E!");
+    res.send("Hello from backend");
 });
 
 try {
